@@ -6,7 +6,6 @@ e tecnologias úteis.
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>MathJax example</title>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async
           src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
@@ -14,7 +13,22 @@ e tecnologias úteis.
 </head>
 <body>
 
+  <p>\[\large \color{blue}\boxed{\color{yellow}Construindo \space posts \space em \space \mathbb{HTML}}\]</p>
+  
+  <br>
+  
+  <p>\(\large \boxed{\mathbb{GLOSSÁRIO}}\)</p>
+    <nav>
+      <ul>
+        <li><a href="#section1">Como utilizar LATEX em um site HTML</a></li>
+        <li><a href="#section2">Como construir tabelas em HTML</a></li>
+        <li><a href="#section3">Como construir um glossário em HTML</a></li>
+      </ul>
+    </nav>
+    <br>
+
   <!--  EXPLICAÇÃO SOBRE LATEX -->
+  <p id="section1"></p>
   <p>\[\large \color{red}\boxed{\color{yellow}Como \space utilizar \space \LaTeX \space em \space um \space site \space \mathbb{HTML}}\]</p>
   
   <br>
@@ -63,6 +77,7 @@ e tecnologias úteis.
 
 
   <!-- EXPLICAÇÃO DE CRIAÇÃO DE TABELAS -->
+  <p id="section2"></p>
   <p>\[\large \color{red}\boxed{\color{yellow}Como \space construir \space tabelas \space em \space \mathbb{HTML}}\]</p>
   
   <br>
@@ -109,5 +124,15 @@ e tecnologias úteis.
       &lt;/table&gt;
     </code>
   </pre>
+
+  <!-- Construindo um glossário -->
+  <p id="section3"></p>
+  <p>\[\large \color{red}\boxed{\color{yellow}Como \space construir \space um \space glossário \space em \space \mathbb{HTML}}\]</p>
+  <br>
+  <p>Podemos construir um glossário dividindo as linhas com a seguinte estrutura</p>
+  <br>
+  <script src="https://gist.github.com/F4NT0/a8a5454fc0230006cffe7f190d302aa5.js"></script>
+
+
 </body>
 </html>
