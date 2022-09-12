@@ -8,7 +8,7 @@ $${\color{red}\boxed{\color{yellow}\mathbb{HOW \space TO \space START}}}$$
 
 1. Clone this repo
 
-2. Install Ruby and the programms needed on this site:  [$\boxed{Jekyll}$](https://jekyllrb.com/docs/installation/)
+2. Install Ruby and the programms needed on this site:  $\boxed{Jekyll}$ [AQUI](https://jekyllrb.com/docs/installation/)
 
 3. On this repo locally, run the command ${\color{red}bundle}$
 
