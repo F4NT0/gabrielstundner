@@ -218,7 +218,7 @@ Exemplo
 ![texto](favicons/android-chrome-512x512.png)
 ```
 
-![texto](favicons/android-chrome-512x512.png)
+![texto](../assets/img/favicons/android-chrome-512x512.png)
 
 Se queremos ter um controle da imagem, devemos usar a tag HTML `<img>`
 
@@ -232,7 +232,7 @@ Exemplo:
 <img src="assets/img/favicons/android-chrome-512x512.png" width="200" height="200">
 ```
 
-<img src="favicons/android-chrome-512x512.png" width="200" height="200">
+<img src="../assets/img/favicons/android-chrome-512x512.png" width="200" height="200">
 
 ---
 
