@@ -6,7 +6,7 @@ order: 4
 ---
 
 <center>
-  <img src="../assets/img/about/open_source.png" width=300 heigth=300>
+  <img src="assets/img/about/open_source.png" width=300 heigth=300>
 </center>
 <br>
 <br>

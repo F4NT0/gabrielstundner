@@ -150,7 +150,7 @@ Gabriel
 
 <p id="prompts"></p>
 
-### $${\color{red}\boxed{\color{orange}\mathbb{Construindo \space Prompta \space em \space Markdown}}}$$
+### $${\color{red}\boxed{\color{orange}\mathbb{Construindo \space Prompt \space em \space Markdown}}}$$
 
 
 Prompts servem para mostrar uma informação, podemos usar os prompts como mostrado abaixo:
@@ -189,6 +189,9 @@ Exemplo:
 {: .prompt-danger }
 ```
 
+> Exemplo visual de `perigo` em formato de  prompt.
+{: .prompt-danger }
+
 ---
 
 <p id="images"></p>
@@ -222,10 +225,10 @@ Se queremos ter um controle da imagem, devemos usar a tag HTML `<img>`
 Exemplo:
 
 ```html
-<img src="../assets/img/favicons/android-chrome-512x512.png" width="200" height="200">
+<img src="assets/img/favicons/android-chrome-512x512.png" width="200" height="200">
 ```
 
-<img src="../assets/img/favicons/android-chrome-512x512.png" width="200" height="200">
+<img src="assets/img/favicons/android-chrome-512x512.png" width="200" height="200">
 
 ---
 

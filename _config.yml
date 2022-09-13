@@ -23,10 +23,10 @@ timezone:
 
 title: N3RD                          # the main title
 
-tagline: F4NT0 Documentation   # it will display as the sub-title
+tagline: Fanto Documentation   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Documentação e Estudos de tecnologia estudados pelo F4NT0
+  Documentação e Estudos de tecnologia feitos pelo Fanto
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://f4nt0.github.io/N3RD/'
