@@ -9,18 +9,25 @@ math: true
 Esta é a primeira página deste Website, onde eu irei explicar como construir os arquivos em Markdown necessários para escrever informações que auxiliem nos meus estudos de Programação
 e tecnologias úteis.
 
+<center>
+
 |**Glossário**|
 |---|
-|<a href="#glossario">Construindo um Glossário</a>
-|<a href="#titulos">Construindo Títulos em Markdown</a>
-|<a href="#list">Construindo Listas em Markdown</a>
-|<a href="#prompts">Construindo prompts em Markdown</a>
-|<a href="#images">Construindo uma imagem em Markdown</a>
+|<a href="#glossario">Tabelas e Glossários</a>
+|<a href="#titulos">Títulos</a>
+|<a href="#list">Listas</a>
+|<a href="#prompts">Prompts</a>
+|<a href="#images">Imagens</a>
+|<a href="#code">Códigos</a>
+|<a href="#colors">Cores</a>
+|<a href="#center">Centralização</a>
+
+</center>
 
 
 <p id="glossario"></p>
 
-### $${\color{red}\boxed{\color{orange}\mathbb{Construindo \space um \space Glossário}}}$$
+# $${\color{red}\boxed{\color{orange}\mathbb{Tabelas \space e \space Glossário}}}$$
 
 Glossários são muito úteis para vincular dados de um mesmo arquivo, podendo separar as informações de uma forma eficiente.
 
@@ -51,7 +58,7 @@ Com isso, sempre que clicarmos no link, ele vai nos levar na área desse tópico
 
 <p id="titulos"></p>
 
-### $${\color{red}\boxed{\color{orange}\mathbb{Construindo \space Títulos \space em \space Markdown}}}$$
+# $${\color{red}\boxed{\color{orange}\mathbb{Títulos}}}$$
 
 
 Construir títulos é só colocar `#` no inicio da linha, quanto mais `#` colocar menor fica o título.
@@ -88,7 +95,7 @@ Exemplo:
 
 <p id="list"></p>
 
-### $${\color{red}\boxed{\color{orange}\mathbb{Construindo \space Listas \space em \space Markdown}}}$$
+# $${\color{red}\boxed{\color{orange}\mathbb{Listas}}}$$
 
 Podemos construir diferentes tipos de listas em Markdown, uma delas é a lista ordenada:
 
@@ -150,7 +157,7 @@ Gabriel
 
 <p id="prompts"></p>
 
-### $${\color{red}\boxed{\color{orange}\mathbb{Construindo \space Prompt \space em \space Markdown}}}$$
+# $${\color{red}\boxed{\color{orange}\mathbb{Prompts}}}$$
 
 
 Prompts servem para mostrar uma informação, podemos usar os prompts como mostrado abaixo:
@@ -196,7 +203,7 @@ Exemplo:
 
 <p id="images"></p>
 
-### $${\color{red}\boxed{\color{orange}\mathbb{Construindo \space imagens \space no \space Markdown}}}$$
+# $${\color{red}\boxed{\color{orange}\mathbb{Imagens}}}$$
 
 Colocamos imagens no markdown utilizando duas formas:
 
@@ -234,7 +241,7 @@ Exemplo:
 
 <p id="code"></p>
 
-### $${\color{red}\boxed{\color{orange}\mathbb{Construindo \space código \space em \space Markdown}}}$$
+# $${\color{red}\boxed{\color{orange}\mathbb{Códigos}}}$$
 
 Podemos colocar código de duas formas:
 
