@@ -1,6 +1,6 @@
-## $${\color{red}\boxed{\color{orange}\mathbb{N3RD}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{N3RD}}}$$
 
-##### $${\color{lime}\mathbb{F4NT0 \space TECH \space WEBSITE}}$$
+##### $$\color{red}\boxed{\mathbb{\color{orange}{F4NT0 \space TECH \space WEBSITE}}}$$
 
 ---
 
@@ -12,7 +12,7 @@
 
 ---
 
-$${\color{red}\boxed{\color{yellow}\mathbb{EXPLANATION}}}$$
+## $$\color{red}\boxed{\mathbb{\color{lime}{EXPLANATIONS}}}$$
 
 This website was created to organize all tech information I studied or currently studying on university and courses.
 
@@ -20,7 +20,7 @@ Feel free to share and bring informations to help increase the knowledge gathere
 
 ---
 
-$${\color{red}\boxed{\color{yellow}\mathbb{HOW \space TO \space START}}}$$
+## $$\color{red}\boxed{\mathbb{\color{lime}{HOW \space TO \space START}}}$$
 
 1. Clone this repo
 
@@ -34,7 +34,7 @@ $${\color{red}\boxed{\color{yellow}\mathbb{HOW \space TO \space START}}}$$
 bundle exec jekyll s
 ```
 
---
+---
 
-$${\color{red}\boxed{\color{yellow}\mathbb{ORGANIZATION}}}$$
+## $$\color{red}\boxed{\mathbb{\color{lime}{COMMANDS}}}$$
 
