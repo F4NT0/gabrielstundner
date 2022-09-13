@@ -5,6 +5,7 @@ categories: [Básico, Markdown]
 tags: [Markdown, LATEX]
 math: true
 img_path: assets/img
+toc: true
 ---
 
 Podemos utilizar comandos LATEX para facilitar nossa vida para construir um artigo, veja abaixo os comandos mais comuns matemáticos
@@ -28,7 +29,7 @@ Podemos utilizar comandos LATEX para facilitar nossa vida para construir um arti
 
 <p id="tipos"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{COMANDOS}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{COMANDOS}}}$$
 
 > Para utilizarmos $\LaTeX$ no Markdown devemos utilizar comandos dentro de estruturas como abaixo:
 {: .prompt-info }
@@ -58,7 +59,7 @@ Hoje, após ${\color{red}10}$ dias, estaremos livres.
 
 <p id="simbol"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{SÍMBOLOS MATEMÁTICOS}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{SÍMBOLOS \space MATEMÁTICOS}}}$$
 
 > Símbolos matemáticos mais comuns aceitos em $\LaTeX$
 {: .prompt-info }
@@ -94,7 +95,7 @@ Hoje, após ${\color{red}10}$ dias, estaremos livres.
 
 <p id="logic"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{SÍMBOLOS LÓGICOS}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{SÍMBOLOS \space LÓGICOS}}}$$
 
 > Símbolos Lógicos mais comuns utilizados em $\LaTeX$
 {: .prompt-info }
@@ -109,7 +110,7 @@ Hoje, após ${\color{red}10}$ dias, estaremos livres.
 |`$\neg$`|$\neg$| Negação lógica
 |`$\Rightarrow$`|$\Rightarrow$| implica em algo, significa que se a fórmula da direita for verdade, implica em outra conclusão (Se,então)
 |`$\Leftrightarrow$`|$\Leftrightarrow$| significa que um depende do outro para ser verdadeiro
-|`$\wedge$`|$\wedge$| é o & lógico, onde os dois tem que ser verdadeiros para ser verdadeiro
+|`$\wedge$`|$\wedge$| é o e lógico, onde os dois tem que ser verdadeiros para ser verdadeiro
 |`$\lor$`|$\lor$| é o | lógico, onde pelo menos um deles tem que ser verdadeiro para ser verdadeiro
 |`$\top$`|$\top$| é uma Tautologia, significa que é sempre verdadeiro 
 |`$\bot$`|$\bot$| é uma Contradição, significa que é sempre falso
@@ -119,7 +120,7 @@ Hoje, após ${\color{red}10}$ dias, estaremos livres.
 
 <p id="math"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{FÓRMULAS MATEMÁTICAS}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{FÓRMULAS \space MATEMÁTICAS}}}$$
 
 > Fórmulas matemáticas deve se tomar cuidado de colocar ou toda em uma linha ou construir uma estrutura que aceite multiplas linhas
 {: .prompt-info }
@@ -149,7 +150,7 @@ $$\tag{Somatório} \sum$$
 
 <p id="color"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{CORES}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{CORES}}}$$
 
 > Graças ao comando `\color{}` podemos colocar cores no texto, tando no $\LaTeX$ quanto no markdown, as cores abaixo são as mais comuns
 {: .prompt-info }
@@ -178,7 +179,7 @@ $$\tag{Somatório} \sum$$
 
 <p id="box"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{BOX}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{BOX}}}$$
 
 > Se quiser, pode criar um box com o texto dentro, onde podemos somente ter o texto usando um box simples ou um box com cor de fundo
 {: .prompt-info }
@@ -203,7 +204,7 @@ $$\fcolorbox{red}{black}{$\color{lime}\mathbb{EXEMPLO}$}$$
 
 <p id="test"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{TESTES}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{TESTES}}}$$
 
 ```latex
 $${\color{red}\sum\limits_{\color{lightblue}i=0}^{\color{orange}n} {\color{pink}i}} = \frac{\color{pink}n!}{\color{lightblue}k!(n-k)!}$$

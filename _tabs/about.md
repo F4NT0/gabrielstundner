@@ -3,10 +3,9 @@ title: Sobre mim
 icon: fas fa-info-circle
 math: true
 order: 4
-img_path: assets/img
 ---
 
-![Image](https://github.com/F4NT0/N3RD/blob/main/assets/img/about/open_source.png){: width="300" heigth="300"}
+![Image](f4nt0.github.io/assets/img/about/open-source.png)
 _alma hacker_
 
 <br>

@@ -5,6 +5,7 @@ categories: [Básico, Markdown]
 tags: [Markdown, LATEX]
 math: true
 img_path: assets/img
+pin: true
 ---
 
 Esta é a primeira página deste Website, onde eu irei explicar como construir os arquivos em Markdown necessários para escrever informações que auxiliem nos meus estudos de Programação
@@ -24,7 +25,7 @@ e tecnologias úteis.
 
 <p id="glossario"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{TABELAS E GLOSSÁRIO}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{TABELAS E GLOSSÁRIO}}}$$
 
 Glossários são muito úteis para vincular dados de um mesmo arquivo, podendo separar as informações de uma forma eficiente.
 
@@ -55,7 +56,7 @@ Com isso, sempre que clicarmos no link, ele vai nos levar na área desse tópico
 
 <p id="titulos"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{TÍTULOS}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{TÍTULOS}}}$$
 
 
 Construir títulos é só colocar `#` no inicio da linha, quanto mais `#` colocar menor fica o título.
@@ -92,7 +93,7 @@ Exemplo:
 
 <p id="list"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{LISTAS}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{LISTAS}}}$$
 
 Podemos construir diferentes tipos de listas em Markdown, uma delas é a lista ordenada:
 
@@ -154,7 +155,7 @@ Gabriel
 
 <p id="prompts"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{PROMPTS}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{PROMPTS}}}$$
 
 
 Prompts servem para mostrar uma informação, podemos usar os prompts como mostrado abaixo:
@@ -200,7 +201,7 @@ Exemplo:
 
 <p id="images"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{IMAGENS}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{IMAGENS}}}$$
 
 Colocamos imagens no markdown utilizando duas formas:
 
@@ -238,7 +239,7 @@ Exemplo:
 
 <p id="code"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{CÓDIGOS}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{CÓDIGOS}}}$$
 
 Podemos colocar código de duas formas:
 
@@ -252,9 +253,9 @@ System.out.println
 
 <p id="colors"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{CORES}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{CORES}}}$$
 
-> Graças ao comando `\color{}` podemos colocar cores no texto, tando no $\LaTeX$ quanto no markdown, as cores abaixo são as mais comuns
+> Graças ao comando `\color{}` podemos colocar cores no texto, tanto no $\LaTeX$ quanto no markdown, as cores abaixo são as mais comuns
 {: .prompt-info }
 
 |Código|Símbolo
@@ -281,7 +282,7 @@ System.out.println
 
 <p id="center"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{CENTRALIZAR}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{CENTRALIZAR}}}$$
 
 > Podemos centralizar dados utilizando as tags de `<center>` ou uma estrutura base que funciona no Github e no Gitlab
 {: .prompt-info }
