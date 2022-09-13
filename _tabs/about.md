@@ -5,7 +5,7 @@ math: true
 order: 4
 ---
 
-![image](/assets/img/about/open-source.png){: w="200" h="200"}
+![image](/assets/img/about/open-source.png)
 _alma hacker_
 
 <br>
