@@ -25,7 +25,7 @@ e tecnologias úteis.
 
 <p id="glossario"></p>
 
-# $$\color{red}\boxed{\mathbb{\color{lime}{TABELAS E GLOSSÁRIO}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}{TABELAS \space E \space GLOSSÁRIO}}}$$
 
 Glossários são muito úteis para vincular dados de um mesmo arquivo, podendo separar as informações de uma forma eficiente.
 
@@ -233,7 +233,7 @@ Exemplo:
 <img src="assets/img/favicons/android-chrome-512x512.png" width="200" height="200">
 ```
 
-<img src="../assets/img/favicons/android-chrome-512x512.png" width="200" height="200">
+![https://imgur.com/a/0nDAGVt](https://imgur.com/a/0nDAGVt)
 
 ---
 
