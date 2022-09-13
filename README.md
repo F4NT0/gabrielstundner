@@ -36,5 +36,5 @@ bundle exec jekyll s
 
 ---
 
-## $$\color{red}\boxed{\mathbb{\color{lime}{COMMANDS}}}$$
+## $$\color{red}\boxed{\mathbb{\color{lime}{COMMANDS TO USE}}}$$
 
