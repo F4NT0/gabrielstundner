@@ -2,204 +2,170 @@
 title: Latex no Mardown
 author: Gabriel Fanto Stundner
 date: 2022-09-12 21:00:00 +0800
-categories: [Básico, Markdown, Tutorial]
+categories: [Básico, Markdown]
 tags: [Markdown, LATEX]
 math: true
 mermaid: true
 ---
 
-## Titles
+Podemos utilizar comandos LATEX para facilitar nossa vida para construir um artigo, veja abaixo os comandos mais comuns matemáticos
+
+* A matemática do Github é utilizando KATEX
+* Documento oficial com comandos: [Comandos](https://katex.org/docs/supported.html#logic-and-set-theory)
+
+
+|**Glossário**|
+|---|
+|<a href="#tipos">Tipos de Comandos</a>|
+|<a href="#simbol">Utilizando Símbolos matemáticos</a>
+|<a href="#logic">Utilizando Símbolos lógicos</a>
+|<a href="#math">Utilizando Fórmulas matemáticas</a>
+|<a href="#math">Utilizando Fórmulas matemáticas</a>
+|<a href="#color">Cores no LATEX</a>
+
 ---
-# H1 - heading
 
-<h2 data-toc-skip>H2 - heading</h2>
 
-<h3 data-toc-skip>H3 - heading</h3>
+<p id="tipos"></p>
 
-<h4>H4 - heading</h4>
+### Tipos de comandos:
+
+1. Se utilizarmos `$$texto$$`, ou seja, o símbolo `$` duas vezes de cada lado, ele vai centralizar o texto:
+
+$$\boxed{Centralizado}$$
+
+Código do teste acima:
+
+```latex
+$$\boxed{Centralizado}$$
+```
+
+2. Se utlizarmos `$text$`, ou seja, o símbolo `$` somente uma vez de cada lado, ele vai deixar o texto na mesma linha
+
+* Hoje, após ${\color{red}10}$ dias, estaremos livres.
+
+Código do teste acima:
+
+```latex
+Hoje, após ${\color{red}10}$ dias, estaremos livres.
+```
+
 ---
-<br>
+---
 
-## Paragraph
+<p id="simbol"></p>
 
-I wandered lonely as a cloud
+## $${ \color{yellow} \boxed{ \color{lightgreen} Utilizando \space Símbolos \space Matemáticos } }$$
 
-That floats on high o'er vales and hills,
 
-When all at once I saw a crowd,
+|Código|Símbolo|significado
+|---|---|---|
+|`$\leq$`|$\leq$| Menor ou igual
+|`$\geq$`|$\geq$| Maior ou igual
+|`$a_0$`|$a_0$| Primeiro valor de um conjunto
+|`$2^2$`|$2²$| Potência de um valor
+|`$\infty$`|$\infty$| Símbolo de infinito
+|`$\int$`|$\int$| Símbolo de uma integral
+|`$\overrightarrow{a}$`|$\overrightarrow{a}$| Colocar uma seta encima da letra
+|`$\pm$`|$\pm$|Sinal de mais ou menos
+|`$\pi$`|$\pi$| Sinal do pi
+|`$\mu$`|$\mu$| Simbolo grego mu
+|`$\not =$`|$\not = $| Símbolo de diferente
+|`$\lbrace$`|$\lbrace$| Chave da esquerda
+|`$\rbrace$`|$\rbrace$| Chave da direita
+|`$\cancel{5}$`|$\cancel{5}$ | Corta um valor
+|`$\xcancel{ABC}$`|$\xcancel{ABC}$ | Corta vários valores juntos
+|`$\overbrace{a+b+c}$`|$\overbrace{a+b+c}$| Marca um conjunto de dados
+|`$\overbrace{a+b+c}^{\text{exemplo}}$`|$\overbrace{a+b+c}^{\text{exemplo}}$| Colocar um texto encima de um conjunto
+|`$\overbrace{a+b+c}_{\text{exemplo}}$`|$\overbrace{a+b+c}_{\text{exemplo}}$| Colocar um texto embaixo de um conjunto
+|`$\boxed{\pi = 3.1415}$`|$\boxed{\pi = 3.1415}$| Colocar texto dentro de uma caixa
+|`$\mathbb{N}$`|$\mathbb{N}$| Simbolo para o conjunto dos Números Naturais
+|`$\mathbb{Z}$`|$\mathbb{Z}$| Símbolo para o conjunto dos Números Inteiros
+|`$\mathbb{R}$`|$\mathbb{R}$| Símbolo para o conjunto dos Números Reais
 
-A host, of golden daffodils;
 
-Beside the lake, beneath the trees,
+---
 
-Fluttering and dancing in the breeze.
+<p id="logic"></p>
 
-## Lists
+## $${ \color{purple} \boxed{ \color{lightblue} Utilizando \space Símbolos \space Lógicos } }$$
 
-### Ordered list
+|Código|Símbolo|significado
+|---|---|---|
+|`$\forall$`|$\forall$| Para todo lógico, significa que todos os elementos de um conjunto seguem uma regra
+|`$\in$`|$\in$| Pertence, para dizer que um valor x pertence a um conjunto
+|`$\in !$`|$\in !$| Não pertence, para dizer que um valor x não pertence ao conjunto
+|`$\exists$`|$\exists$| Existe lógico, quer dizer que existe pelo menos um dentro de um conjunto
+|`$\exists !$`|$\exists !$| Não existe, quer dizer que não existe nenhum dentro de um conjunto
+|`$\neg$`|$\neg$| Negação lógica
+|`$\Rightarrow$`|$\Rightarrow$| implica em algo, significa que se a fórmula da direita for verdade, implica em outra conclusão (Se,então)
+|`$\Leftrightarrow$`|$\Leftrightarrow$| significa que um depende do outro para ser verdadeiro
+|`$\wedge$`|$\wedge$| é o & lógico, onde os dois tem que ser verdadeiros para ser verdadeiro
+|`$\lor$`|$\lor$| é o | lógico, onde pelo menos um deles tem que ser verdadeiro para ser verdadeiro
+|`$\top$`|$\top$| é uma Tautologia, significa que é sempre verdadeiro 
+|`$\bot$`|$\bot$| é uma Contradição, significa que é sempre falso
+|`$\equiv$`|$\equiv$| é equivalência, significa que duas informações são parecidas mas não são iguais
 
-1. Firstly
-2. Secondly
-3. Thirdly
+---
 
-### Unordered list
+<p id="math"></p>
 
-- Chapter
-  - Section
-    - Paragraph
+## $${ \color{white} \boxed{ \color{cyan} Utilizando \space Fórmulas \space Matemáticas } }$$
 
-### Task list
+|Código|Símbolo|significado
+|---|---|---|
+|`$\sum\limits_{i=1}^n i$`|$\sum\limits_{i=1}^n i$|É o somatório de todos de i indo de 1 até n
+|`$\prod_{i=a}^{b} f(i)$`|$\prod_{i=1}^{n} i$| É o produtório (multiplicação de todos os valores) de i indo de 1 até n
+|`$\frac{n}{k}$`|$\frac{n}{k}$| É a fração, divisão de dois números
+|`$\binom{k}{n}$`|$\binom{k}{n}$| é a fórmula de um binômio
+|`$\sqrt[2]{144}$`|$\sqrt[2]{144}$| Raiz quadrada
+|`$\int\limits_a^b$`|$\int\limits_a^b$| Integrais
+|`$\lim\limits_{x \to \infty} f(x) = L$`|$\lim\limits_{x \to \infty} f(x) = L$|Limites
+|`$\begin{vmatrix} a & b \newline c & d \end{vmatrix}$`|$\begin{vmatrix} a & b \newline c & d \end{vmatrix}$| Matrizes
 
-- [ ] TODO
-- [x] Completed
-- [ ] Defeat COVID-19
-  - [x] Vaccine production
-  - [ ] Economic recovery
-  - [ ] People smile again
+---
 
-### Description list
+### Se deseja comentar a fórmula ao lado 
 
-Sun
-: the star around which the earth orbits
-
-Moon
-: the natural satellite of the earth, visible by reflected light from the sun
-
-## Block Quote
-
-> This line shows the _block quote_.
-
-## Prompts
-
-> An example showing the `tip` type prompt.
-{: .prompt-tip }
-
-> An example showing the `info` type prompt.
-{: .prompt-info }
-
-> An example showing the `warning` type prompt.
-{: .prompt-warning }
-
-> An example showing the `danger` type prompt.
-{: .prompt-danger }
-
-## Tables
-
-| Company                      | Contact          | Country |
-|:-----------------------------|:-----------------|--------:|
-| Alfreds Futterkiste          | Maria Anders     | Germany |
-| Island Trading               | Helen Bennett    | UK      |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy   |
-
-## Links
-
-<http://127.0.0.1:4000>
-
-## Footnote
-
-Click the hook will locate the footnote[^footnote], and here is another footnote[^fn-nth-2].
-
-## Images
-
-- Default (with caption)
-
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" }
-_Full screen width and center alignment_
-
-<br>
-
-- Shadow
-
-![Window shadow](/posts/20190808/window.png){: .shadow width="1548" height="864" style="max-width: 90%" }
-_shadow effect (visible in light mode)_
-
-<br>
-
-- Left aligned
-
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" style="max-width: 70%" .normal}
-
-<br>
-
-- Float to left
-
-  ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" style="max-width: 200px" .left}
-  "A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space."
-
-<br>
-
-- Float to right
-
-  ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" style="max-width: 200px" .right}
-  "A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space."
-
-<br>
-
-## Mermaid SVG
-
-```mermaid
- gantt
-  title  Adding GANTT diagram functionality to mermaid
-  apple :a, 2017-07-20, 1w
-  banana :crit, b, 2017-07-23, 1d
-  cherry :active, c, after b a, 1d
+```latex
+$$\tag{Somatório} \sum$$
 ```
 
-## Mathematics
+$$\tag{Somatório} \sum$$
 
-The mathematics powered by [**MathJax**](https://www.mathjax.org/):
+---
 
-$$ \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6} $$
+<p id="color"></p>
 
-When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
+## $${ \color{pink} \boxed{ \color{lightblue}C \color{lightgreen}O \color{red}R \color{cyan}E \color{purple}S } }$$
 
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+|Código|Símbolo
+|---|---|
+|`${\color{red}COR}$`|${\color{red}COR}$
+|`${\color{green}COR}$`|${\color{green}COR}$
+|`${\color{blue}COR}$`|${\color{blue}COR}$
+|`${\color{orange}COR}$`|${\color{orange}COR}$
+|`${\color{cyan}COR}$`|${\color{cyan}COR}$
+|`${\color{purple}COR}$`|${\color{purple}COR}$
+|`${\color{yellow}COR}$`|${\color{yellow}COR}$
+|`${\color{black}COR}$`|${\color{black}COR}$
+|`${\color{white}COR}$`|${\color{white}COR}$
+|`${\color{pink}COR}$`|${\color{pink}COR}$
+|`${\color{magenta}COR}$`|${\color{magenta}COR}$
+|`${\color{teal}COR}$`|${\color{teal}COR}$
+|`${\color{violet}COR}$`|${\color{violet}COR}$
+|`${\color{lightgray}COR}$`|${\color{lightgray}COR}$
+|`${\color{lime}COR}$`|${\color{lime}COR}$
+|`${\color{olive}COR}$`|${\color{olive}COR}$
+|`${\color{brown}COR}$`|${\color{brown}COR}$
 
-## Inline code
+---
 
-This is an example of `Inline Code`.
+## $${ \color{teal} \boxed{ \color{magenta} TESTES } }$$
 
-## Filepath
-
-Here is the `/path/to/the/file.extend`{: .filepath}.
-
-## Code block
-
-### Common
-
-```
-This is a common code snippet, without syntax highlight and line number.
-```
-
-### Specific Languages
-
-#### Console
-
-```console
-$ env |grep SHELL
-SHELL=/usr/local/bin/bash
-PYENV_SHELL=bash
-```
-
-#### Shell
-
-```bash
-if [ $? -ne 0 ]; then
-    echo "The command was not successful.";
-    #do the needful / exit
-fi;
+```latex
+$${\color{red}\sum\limits_{\color{lightblue}i=0}^{\color{orange}n} {\color{pink}i}} = \frac{\color{pink}n!}{\color{lightblue}k!(n-k)!}$$
 ```
 
-### Specific filename
 
-```sass
-@import
-  "colors/light-typography",
-  "colors/dark-typography"
-```
-{: file='_sass/jekyll-theme-chirpy.scss'}
-
-## Reverse Footnote
-
-[^footnote]: The footnote source
-[^fn-nth-2]: The 2nd footnote source
+$${\color{red}\sum\limits_{\color{lightblue}i=0}^{\color{orange}n} {\color{pink}i}} = \frac{\color{pink}n!}{\color{lightblue}k!(n-k)!}$$

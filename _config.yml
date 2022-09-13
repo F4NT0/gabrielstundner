@@ -10,7 +10,7 @@ baseurl: ''
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: pt-BR
 
 # Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
 prefer_datetime_locale:
@@ -23,13 +23,13 @@ timezone:
 
 title: N3RD                          # the main title
 
-tagline: Tech Documentation   # it will display as the sub-title
+tagline: F4NT0 Documentation   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Website documentation of everything i'm learning about developing
+  Documentação e Estudos de tecnologia estudados pelo F4NT0
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://f4nt0.github.io/N3RD/'
 
 github:
   username: F4NT0           # change to your github username
