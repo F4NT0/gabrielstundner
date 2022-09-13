@@ -1,19 +1,16 @@
 ---
 title: Latex no Mardown
 author: Gabriel Fanto Stundner
-date: 2022-09-12 21:00:00 +0800
 categories: [Básico, Markdown]
 tags: [Markdown, LATEX]
 math: true
-mermaid: true
+img_path: assets/img
 ---
 
 Podemos utilizar comandos LATEX para facilitar nossa vida para construir um artigo, veja abaixo os comandos mais comuns matemáticos
 
 * A matemática do Github é utilizando KATEX
 * Documento oficial com comandos: [Comandos](https://katex.org/docs/supported.html#logic-and-set-theory)
-
-<center>
 
 |**Glossário**|
 |---|
@@ -26,13 +23,12 @@ Podemos utilizar comandos LATEX para facilitar nossa vida para construir um arti
 |<a href="#box">Utilizando Box para títulos</a>
 |<a href="#test">Testes de fórmulas</a>
 
-</center>
 ---
 
 
 <p id="tipos"></p>
 
-# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{COMANDOS}$}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{COMANDOS}}}$$
 
 > Para utilizarmos $\LaTeX$ no Markdown devemos utilizar comandos dentro de estruturas como abaixo:
 {: .prompt-info }
@@ -62,7 +58,7 @@ Hoje, após ${\color{red}10}$ dias, estaremos livres.
 
 <p id="simbol"></p>
 
-# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{SÍMBOLOS \space MATEMÁTICOS}$}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{SÍMBOLOS MATEMÁTICOS}}}$$
 
 > Símbolos matemáticos mais comuns aceitos em $\LaTeX$
 {: .prompt-info }
@@ -98,7 +94,7 @@ Hoje, após ${\color{red}10}$ dias, estaremos livres.
 
 <p id="logic"></p>
 
-# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{SÍMBOLOS \space LÓGICOS}$}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{SÍMBOLOS LÓGICOS}}}$$
 
 > Símbolos Lógicos mais comuns utilizados em $\LaTeX$
 {: .prompt-info }
@@ -123,7 +119,7 @@ Hoje, após ${\color{red}10}$ dias, estaremos livres.
 
 <p id="math"></p>
 
-# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{FÓRMULAS \space MATEMÁTICAS}$}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{FÓRMULAS MATEMÁTICAS}}}$$
 
 > Fórmulas matemáticas deve se tomar cuidado de colocar ou toda em uma linha ou construir uma estrutura que aceite multiplas linhas
 {: .prompt-info }
@@ -153,7 +149,7 @@ $$\tag{Somatório} \sum$$
 
 <p id="color"></p>
 
-# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{CORES}$}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{CORES}}}$$
 
 > Graças ao comando `\color{}` podemos colocar cores no texto, tando no $\LaTeX$ quanto no markdown, as cores abaixo são as mais comuns
 {: .prompt-info }
@@ -182,7 +178,7 @@ $$\tag{Somatório} \sum$$
 
 <p id="box"></p>
 
-# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{BOX}$}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{BOX}}}$$
 
 > Se quiser, pode criar um box com o texto dentro, onde podemos somente ter o texto usando um box simples ou um box com cor de fundo
 {: .prompt-info }
@@ -207,7 +203,7 @@ $$\fcolorbox{red}{black}{$\color{lime}\mathbb{EXEMPLO}$}$$
 
 <p id="test"></p>
 
-# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{TESTES}$}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{TESTES}}}$$
 
 ```latex
 $${\color{red}\sum\limits_{\color{lightblue}i=0}^{\color{orange}n} {\color{pink}i}} = \frac{\color{pink}n!}{\color{lightblue}k!(n-k)!}$$

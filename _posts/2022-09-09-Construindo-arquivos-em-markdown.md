@@ -4,12 +4,11 @@ author: Gabriel Fanto Stundner
 categories: [Básico, Markdown]
 tags: [Markdown, LATEX]
 math: true
+img_path: assets/img
 ---
 
 Esta é a primeira página deste Website, onde eu irei explicar como construir os arquivos em Markdown necessários para escrever informações que auxiliem nos meus estudos de Programação
 e tecnologias úteis.
-
-<center>
 
 |**Glossário**|
 |---|
@@ -22,12 +21,10 @@ e tecnologias úteis.
 |<a href="#colors">Cores</a>
 |<a href="#center">Centralização</a>
 
-</center>
-
 
 <p id="glossario"></p>
 
-# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{TABELAS \space E \space GLOSSÁRIO}$}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{TABELAS E GLOSSÁRIO}}}$$
 
 Glossários são muito úteis para vincular dados de um mesmo arquivo, podendo separar as informações de uma forma eficiente.
 
@@ -58,7 +55,7 @@ Com isso, sempre que clicarmos no link, ele vai nos levar na área desse tópico
 
 <p id="titulos"></p>
 
-# $${\color{red}\boxed{\color{orange}\mathbb{Títulos}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{TÍTULOS}}}$$
 
 
 Construir títulos é só colocar `#` no inicio da linha, quanto mais `#` colocar menor fica o título.
@@ -95,7 +92,7 @@ Exemplo:
 
 <p id="list"></p>
 
-# $${\color{red}\boxed{\color{orange}\mathbb{Listas}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{LISTAS}}}$$
 
 Podemos construir diferentes tipos de listas em Markdown, uma delas é a lista ordenada:
 
@@ -157,7 +154,7 @@ Gabriel
 
 <p id="prompts"></p>
 
-# $${\color{red}\boxed{\color{orange}\mathbb{Prompts}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{PROMPTS}}}$$
 
 
 Prompts servem para mostrar uma informação, podemos usar os prompts como mostrado abaixo:
@@ -203,7 +200,7 @@ Exemplo:
 
 <p id="images"></p>
 
-# $${\color{red}\boxed{\color{orange}\mathbb{Imagens}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{IMAGENS}}}$$
 
 Colocamos imagens no markdown utilizando duas formas:
 
@@ -218,10 +215,10 @@ Com isso podemos pegar uma imagem e colocar no sistema, mas não tem controle do
 Exemplo
 
 ```markdown
-![texto](../assets/img/favicons/android-chrome-512x512.png)
+![texto](favicons/android-chrome-512x512.png)
 ```
 
-![texto](../assets/img/favicons/android-chrome-512x512.png)
+![texto](favicons/android-chrome-512x512.png)
 
 Se queremos ter um controle da imagem, devemos usar a tag HTML `<img>`
 
@@ -235,13 +232,13 @@ Exemplo:
 <img src="assets/img/favicons/android-chrome-512x512.png" width="200" height="200">
 ```
 
-<img src="assets/img/favicons/android-chrome-512x512.png" width="200" height="200">
+<img src="favicons/android-chrome-512x512.png" width="200" height="200">
 
 ---
 
 <p id="code"></p>
 
-# $${\color{red}\boxed{\color{orange}\mathbb{Códigos}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{CÓDIGOS}}}$$
 
 Podemos colocar código de duas formas:
 
@@ -255,7 +252,7 @@ System.out.println
 
 <p id="colors"></p>
 
-# $${\color{red}\boxed{\color{orange}\mathbb{CORES}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{CORES}}}$$
 
 > Graças ao comando `\color{}` podemos colocar cores no texto, tando no $\LaTeX$ quanto no markdown, as cores abaixo são as mais comuns
 {: .prompt-info }
@@ -284,7 +281,7 @@ System.out.println
 
 <p id="center"></p>
 
-# $${\color{red}\boxed{\color{orange}\mathbb{CENTRALIZAR}}}$$
+# $$\color{red}\boxed{\mathbb{\color{lime}\colorbox{black}{CENTRALIZAR}}}$$
 
 > Podemos centralizar dados utilizando as tags de `<center>` ou uma estrutura base que funciona no Github e no Gitlab
 {: .prompt-info }
