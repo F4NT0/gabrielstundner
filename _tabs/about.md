@@ -5,12 +5,6 @@ math: true
 order: 4
 ---
 
-![image](/assets/img/about/open-source.png)
-_alma hacker_
-
-<br>
-<br>
-
 Meu nome é ${\space\color{lime}\mathbb{Gabriel \space Fanto \space Stundner}}$ e trabalho como ${\space\color{orange}\mathbb{Backend \space Software \space Developer}}$ e estudante de ${\space\color{magenta}\mathbb{Engenharia \space de \space Software}}$ pela PUCRS no Brasil.
 
 Construi este site para organizar e armazenar todo o conhecimento adquirido na faculdade e no dia-a-dia de desenvolvimento.
