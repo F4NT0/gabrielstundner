@@ -13,22 +13,29 @@ Podemos utilizar comandos LATEX para facilitar nossa vida para construir um arti
 * A matemática do Github é utilizando KATEX
 * Documento oficial com comandos: [Comandos](https://katex.org/docs/supported.html#logic-and-set-theory)
 
+<center>
 
 |**Glossário**|
 |---|
-|<a href="#tipos">Tipos de Comandos</a>|
+|<a href="#tipos">Tipos de Comandos permitidos</a>|
 |<a href="#simbol">Utilizando Símbolos matemáticos</a>
 |<a href="#logic">Utilizando Símbolos lógicos</a>
 |<a href="#math">Utilizando Fórmulas matemáticas</a>
 |<a href="#math">Utilizando Fórmulas matemáticas</a>
 |<a href="#color">Cores no LATEX</a>
+|<a href="#box">Utilizando Box para títulos</a>
+|<a href="#test">Testes de fórmulas</a>
 
+</center>
 ---
 
 
 <p id="tipos"></p>
 
-### Tipos de comandos:
+# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{COMANDOS}$}$$
+
+> Para utilizarmos $\LaTeX$ no Markdown devemos utilizar comandos dentro de estruturas como abaixo:
+{: .prompt-info }
 
 1. Se utilizarmos `$$texto$$`, ou seja, o símbolo `$` duas vezes de cada lado, ele vai centralizar o texto:
 
@@ -55,7 +62,10 @@ Hoje, após ${\color{red}10}$ dias, estaremos livres.
 
 <p id="simbol"></p>
 
-## $${ \color{yellow} \boxed{ \color{lightgreen} Utilizando \space Símbolos \space Matemáticos } }$$
+# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{SÍMBOLOS \space MATEMÁTICOS}$}$$
+
+> Símbolos matemáticos mais comuns aceitos em $\LaTeX$
+{: .prompt-info }
 
 
 |Código|Símbolo|significado
@@ -88,7 +98,10 @@ Hoje, após ${\color{red}10}$ dias, estaremos livres.
 
 <p id="logic"></p>
 
-## $${ \color{purple} \boxed{ \color{lightblue} Utilizando \space Símbolos \space Lógicos } }$$
+# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{SÍMBOLOS \space LÓGICOS}$}$$
+
+> Símbolos Lógicos mais comuns utilizados em $\LaTeX$
+{: .prompt-info }
 
 |Código|Símbolo|significado
 |---|---|---|
@@ -110,7 +123,10 @@ Hoje, após ${\color{red}10}$ dias, estaremos livres.
 
 <p id="math"></p>
 
-## $${ \color{white} \boxed{ \color{cyan} Utilizando \space Fórmulas \space Matemáticas } }$$
+# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{FÓRMULAS \space MATEMÁTICAS}$}$$
+
+> Fórmulas matemáticas deve se tomar cuidado de colocar ou toda em uma linha ou construir uma estrutura que aceite multiplas linhas
+{: .prompt-info }
 
 |Código|Símbolo|significado
 |---|---|---|
@@ -125,7 +141,7 @@ Hoje, após ${\color{red}10}$ dias, estaremos livres.
 
 ---
 
-### Se deseja comentar a fórmula ao lado 
+* Comentários da fórmula que aparece ao lado
 
 ```latex
 $$\tag{Somatório} \sum$$
@@ -137,7 +153,10 @@ $$\tag{Somatório} \sum$$
 
 <p id="color"></p>
 
-## $${ \color{pink} \boxed{ \color{lightblue}C \color{lightgreen}O \color{red}R \color{cyan}E \color{purple}S } }$$
+# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{CORES}$}$$
+
+> Graças ao comando `\color{}` podemos colocar cores no texto, tando no $\LaTeX$ quanto no markdown, as cores abaixo são as mais comuns
+{: .prompt-info }
 
 |Código|Símbolo
 |---|---|
@@ -161,7 +180,34 @@ $$\tag{Somatório} \sum$$
 
 ---
 
-## $${ \color{teal} \boxed{ \color{magenta} TESTES } }$$
+<p id="box"></p>
+
+# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{BOX}$}$$
+
+> Se quiser, pode criar um box com o texto dentro, onde podemos somente ter o texto usando um box simples ou um box com cor de fundo
+{: .prompt-info }
+
+* Box simples:
+
+```latex
+${\color{red} \boxed{ \color{lime} E=m*c^2 }}$
+```
+${\color{red} \boxed{ \color{lime} E=m*c^2 }}$
+
+* Box com background:
+    * Este tipo de box não tem como ser na mesma linha, só aceita dentro de `$$\fcolorbox$$`
+    * Esta é a forma que está sendo utilizado para fazer os títulos dessas publicações
+
+```latex
+$$\fcolorbox{red}{black}{ $\color{lime} \mathbb{EXEMPLO}$ }$$
+```
+$$\fcolorbox{red}{black}{$\color{lime}\mathbb{EXEMPLO}$}$$
+
+---
+
+<p id="test"></p>
+
+# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{TESTES}$}$$
 
 ```latex
 $${\color{red}\sum\limits_{\color{lightblue}i=0}^{\color{orange}n} {\color{pink}i}} = \frac{\color{pink}n!}{\color{lightblue}k!(n-k)!}$$

@@ -27,7 +27,7 @@ e tecnologias úteis.
 
 <p id="glossario"></p>
 
-# $${\color{red}\boxed{\color{orange}\mathbb{Tabelas \space e \space Glossário}}}$$
+# $$\fcolorbox{red}{black}{$\color{lime}\mathbb{TABELAS \space E \space GLOSSÁRIO}$}$$
 
 Glossários são muito úteis para vincular dados de um mesmo arquivo, podendo separar as informações de uma forma eficiente.
 
@@ -254,4 +254,53 @@ System.out.println
 ---
 
 <p id="colors"></p>
+
+# $${\color{red}\boxed{\color{orange}\mathbb{CORES}}}$$
+
+> Graças ao comando `\color{}` podemos colocar cores no texto, tando no $\LaTeX$ quanto no markdown, as cores abaixo são as mais comuns
+{: .prompt-info }
+
+|Código|Símbolo
+|---|---|
+|`${\color{red}COR}$`|${\color{red}COR}$
+|`${\color{green}COR}$`|${\color{green}COR}$
+|`${\color{blue}COR}$`|${\color{blue}COR}$
+|`${\color{orange}COR}$`|${\color{orange}COR}$
+|`${\color{cyan}COR}$`|${\color{cyan}COR}$
+|`${\color{purple}COR}$`|${\color{purple}COR}$
+|`${\color{yellow}COR}$`|${\color{yellow}COR}$
+|`${\color{black}COR}$`|${\color{black}COR}$
+|`${\color{white}COR}$`|${\color{white}COR}$
+|`${\color{pink}COR}$`|${\color{pink}COR}$
+|`${\color{magenta}COR}$`|${\color{magenta}COR}$
+|`${\color{teal}COR}$`|${\color{teal}COR}$
+|`${\color{violet}COR}$`|${\color{violet}COR}$
+|`${\color{lightgray}COR}$`|${\color{lightgray}COR}$
+|`${\color{lime}COR}$`|${\color{lime}COR}$
+|`${\color{olive}COR}$`|${\color{olive}COR}$
+|`${\color{brown}COR}$`|${\color{brown}COR}$
+
+---
+
 <p id="center"></p>
+
+# $${\color{red}\boxed{\color{orange}\mathbb{CENTRALIZAR}}}$$
+
+> Podemos centralizar dados utilizando as tags de `<center>` ou uma estrutura base que funciona no Github e no Gitlab
+{: .prompt-info }
+
+- Tag Center
+
+```html
+<center>
+  <!-- Conteúdo aqui -->
+</center>
+```
+
+- Construção que aceita colocar no Github e Gitlab
+
+```html
+<table align="center"><tr><td align="center" width="9999">
+  <!-- Conteúdo aqui -->
+</td></tr></table
+```
