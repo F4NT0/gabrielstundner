@@ -5,7 +5,7 @@ math: true
 order: 4
 ---
 
-![Image](f4nt0.github.io/assets/img/about/open-source.png)
+![Image](https://f4nt0.github.io/assets/img/about/open-source.png)
 _alma hacker_
 
 <br>
