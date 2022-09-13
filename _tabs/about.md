@@ -5,7 +5,8 @@ math: true
 order: 4
 ---
 
-![Image](assets/img/about/open_source.png){: width="300" heigth="300"}
+![Image](https://github.com/F4NT0/N3RD/blob/main/assets/img/about/open_source.png){: width="300" heigth="300"}
+_alma hacker_
 
 <br>
 <br>

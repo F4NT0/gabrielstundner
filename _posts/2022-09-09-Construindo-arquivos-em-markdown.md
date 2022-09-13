@@ -250,3 +250,8 @@ Forma 1 é colocar ``` encima e embaixo de um código, junto com o nome da lingu
 ```java
 System.out.println
 ```
+
+---
+
+<p id="colors"></p>
+<p id="center"></p>
