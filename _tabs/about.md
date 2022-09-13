@@ -5,11 +5,8 @@ math: true
 order: 4
 ---
 
-<center>
-  <img src="../../assets/img/about/open_source.png" width=300 heigth=300>
-  
-  <img src="https://github.dev/F4NT0/N3RD/blob/ed51ae00f63c0cae75608d2494af4ced53358340/assets/img/about/open_source.png">
-</center>
+![Image](assets/img/about/open_source.png){: width="300" heigth="300"}
+
 <br>
 <br>
 
