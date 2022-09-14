@@ -219,7 +219,7 @@ Exemplo
 ![texto](favicons/android-chrome-512x512.png)
 ```
 
-![texto](/images/open-source.png)
+![My helpful screenshot]({{"/images/open-source.png" | absolute_url}})
 
 Se queremos ter um controle da imagem, devemos usar a tag HTML `<img>`
 
