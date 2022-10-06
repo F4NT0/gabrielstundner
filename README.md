@@ -1,4 +1,4 @@
-# $$\color{gray}\boxed{\mathbb{\color{orange}{N3RD}}}$$
+# $$\color{lime}\boxed{\mathbb{\color{orange}{N3RD}}}$$
 
 ##### $$\color{gray}\boxed{\mathbb{\color{orange}{F4NT0 \space TECH \space WEBSITE}}}$$
 
