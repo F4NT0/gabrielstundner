@@ -1,6 +1,4 @@
-# $$\color{lime}\boxed{\mathbb{\color{orange}{N3RD}}}$$
-
-##### $$\color{gray}\boxed{\mathbb{\color{orange}{F4NT0 \space TECH \space WEBSITE}}}$$
+# My Documentation webite
 
 ---
 
@@ -12,33 +10,27 @@
 
 ---
 
-## $$\color{gray}\boxed{\mathbb{\color{orange}{EXPLANATIONS}}}$$
-
-This website was created to organize all tech information I studied or currently studying on university and courses.
-
-Feel free to share and bring informations to help increase the knowledge gathered!.
+## Configurations
 
 ---
 
-## $$\color{gray}\boxed{\mathbb{\color{orange}{HOW \space TO \space START}}}$$
+1. Install Ruby by Winget: `winget install RubyInstallerTeam.Ruby.3.1`.
 
-1. Clone this repo
+2. To test the version, rub `ruby -v` in your terminal after installation (restart the console).
 
-2. Install Ruby and the programs needed on this site: [HERE ⬇️](https://jekyllrb.com/docs/installation/)
+3. Install Jekyll on your system with the following command: `gem install jekyll bundler`
 
-3. On this repo locally, run the command ${\color{orange}bundle}$ on your console
+3. On this repo locally, run the command `bundle` on your console.
 
-4. After the bundle install all the ruby programms, run the project using:
-
-```shell
-bundle exec jekyll s
-```
+4. After the bundle install all the ruby programms, run the project using `bundle exec jekyll s`
 
 ---
 
-## $$\color{gray}\boxed{\mathbb{\color{orange}{COMMANDS \space TO \space USE}}}$$
+## Creating Docs
 
 ---
+
+- Into the folder _posts_ 
 
 
 
