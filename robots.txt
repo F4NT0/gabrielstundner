@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://f4nt0.github.io/gabrielstundner//sitemap.xml
