@@ -1,6 +1,6 @@
 remote_theme: pages-themes/tactile@v0.2.0
-title: Gabriel Stundner
-description: My Documentation website
+title: Fanto Docs
+description: Site de registro de estudos
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 - jekyll-katex

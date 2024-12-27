@@ -1,6 +1,6 @@
 # Bem vindos
 
-[PlantUML](docs/diagrams/PlantUmlSyntax.md)
+<img title="" src="assets/images/mybanner.gif" alt="">
 
 Sou **Engenheiro de Software com 6 anos de experiência** em desenvolvimento de soluções robustas e escaláveis. 
 
@@ -15,3 +15,15 @@ Tenho experiência em metodologias ágeis, como Scrum e Kanban, o que me permite
 Além disso, possuo um sólido entendimento de princípios de design de software, padrões de arquitetura e melhores práticas de codificação. Minha paixão por tecnologia e inovação me motiva a estar sempre atualizado com as últimas tendências e ferramentas do mercado.
 
 Estou comprometido com a excelência e a melhoria contínua, buscando sempre superar as expectativas e contribuir de forma significativa para o sucesso dos projetos em que estou envolvido.
+
+## Minhas documentações
+
+---
+
+- [Utilizando PlantUML para gerar diagramas como código](docs/diagrams/PlantUmlSyntax.md)
+
+## Meus projetos
+
+---
+
+- [Gerador de projetos .NET via console](https://github.com/F4NT0/CSharp-Template)
