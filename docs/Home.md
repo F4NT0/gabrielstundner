@@ -1,14 +1,12 @@
 # Documentações
 
-Página inicial das documentações criadas pelos estudos de desenvolvimento
-
-
+Página inicial das documentações criadas pelos estudos de desenvolvimento.
 
 ## Documentação como código
 
 ---
 
-- [Utilizando PlantUML](diagrams/PlantUmlSyntax.md)
+- [Criando diagramas com PlantUML](diagrams/DiagramHome.md)
 
 
 

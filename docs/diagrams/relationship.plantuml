@@ -1,0 +1,27 @@
+@startuml Exemplo de Associação
+
+' CLASSES
+
+class Pessoa {
+    -string nome 
+    -int idade 
+
+    +string getNome()
+    +void falar()
+    +int getIdade()
+}
+
+class Carro {
+    +Pessoa pessoa
+    +string placa
+
+    +string getNomePessoa()
+    +string getPlaca()
+}
+
+' RELACIONAMENTOS
+
+Pessoa "1" --> "0..*" Carro : possui
+
+@enduml
+

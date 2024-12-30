@@ -20,7 +20,7 @@ Estou comprometido com a excelência e a melhoria contínua, buscando sempre sup
 
 ---
 
-- [Utilizando PlantUML para gerar diagramas como código](docs/diagrams/PlantUmlSyntax.md)
+- [Utilizando PlantUML para gerar diagramas como código](docs/diagrams/DiagramHome.md)
 
 ## Meus projetos
 

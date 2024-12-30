@@ -1,16 +1,21 @@
-@startuml Exemplo Diagrama
+@startuml                          
 
-'Classes
+' CLASSES
 
-class NomeClasse{
-   +Tipo atributoPublico
-   -Tipo atributoPrivado
+class Pessoa {
 
-   +Tipo metodoPublico()
-   -Tipo metodoPrivado()
+    ' Atributos
+    ' ---------
+    -String nome
+    -int idade
+
+    ' Métodos
+    ' --------
+    +String getNome()
+    +void setNome()
+    +int getIdade()
+    +void setIdade()
+    +void falar()
 }
-
-'Associações
-
 
 @enduml
