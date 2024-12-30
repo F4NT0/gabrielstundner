@@ -1,0 +1,16 @@
+@startuml Exemplo Diagrama
+
+'Classes
+
+class NomeClasse{
+   +Tipo atributoPublico
+   -Tipo atributoPrivado
+
+   +Tipo metodoPublico()
+   -Tipo metodoPrivado()
+}
+
+'Associações
+
+
+@enduml
